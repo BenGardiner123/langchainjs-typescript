@@ -1,3 +1,4 @@
+![langchain_starter_1](https://github.com/BenGardiner123/langchainjs-typescript/assets/61527372/2036a175-d156-4603-a959-8095298fdd99)
 # Langchain JS Starter Template
 
 Welcome to the Langchain JS Starter Template! This repository offers a profound initiation into the realm of TypeScript, harmoniously intertwined with the mystical powers of Langchainjs. Within these hallowed grounds, the essence of OpenAI's language models pulsates, waiting to be harnessed.
