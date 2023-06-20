@@ -1,0 +1,36 @@
+{
+  "name": "langchain-typescript-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "type": "module",
+  "license": "",
+  "private": false,
+  "engines": {
+    "node": ">= 18.0.0",
+    "npm": ">= 9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "contributors": [],
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/app.ts",
+    "dev": "ts-node --esm ./src/app.ts"
+  },
+  "dependencies": {
+    "@types/node": "^18.15.10",
+    "dotenv": "^16.0.3",
+    "js-yaml": "^4.1.0",
+    "langchain": "^0.0.96",
+    "typescript": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.5",
+    "ts-node": "^10.9.1"
+  }
+}
