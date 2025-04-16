@@ -19,14 +19,14 @@
   "contributors": [],
   "scripts": {
     "build": "tsc",
-    "start": "node ./dist/app.ts",
-    "dev": "ts-node --esm ./src/app.ts"
+    "start": "node ./dist/app.js",
+    "dev": "node --loader ts-node/esm ./src/app.ts"
   },
   "dependencies": {
     "@types/node": "^18.15.10",
     "dotenv": "^16.0.3",
     "js-yaml": "^4.1.0",
-    "langchain": "^0.0.96",
+    "langchain": "^0.3.21",
     "typescript": "^5.0.2"
   },
   "devDependencies": {
